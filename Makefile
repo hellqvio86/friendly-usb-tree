@@ -17,14 +17,14 @@ CARGO := cargo
 # Build target
 .PHONY: build
 build:
-    $(CARGO) build
+	$(CARGO) build
 
 # Run target
 .PHONY: run
 run:
-    $(CARGO) run
+	$(CARGO) run
 
 # Clean target
 .PHONY: clean
 clean:
-    $(CARGO) clean
+	$(CARGO) clean
