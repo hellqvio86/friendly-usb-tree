@@ -28,3 +28,10 @@ run:
 .PHONY: clean
 clean:
 	$(CARGO) clean
+
+.PHONY: renovate renovate-summary
+renovate:
+	@./bin/renovate/run.sh
+
+renovate-summary:
+	@./bin/renovate/run.sh --summary
